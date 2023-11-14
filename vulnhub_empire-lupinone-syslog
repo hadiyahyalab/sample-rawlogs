@@ -1,0 +1,38 @@
+<86>Nov 14 12:54:19 LupinOne sudo: pam_unix(sudo:session): session opened for user root(uid=0) by icex64(uid=1000)
+<85>Nov 14 12:54:19 LupinOne sudo:   arsene : TTY=pts/0 ; PWD=/home/icex64 ; USER=root ; COMMAND=/usr/bin/pip install /tmp/tmp.MhWPJeFw9f
+<85>Nov 14 12:53:52 LupinOne sudo:   icex64 : TTY=pts/0 ; PWD=/home/icex64 ; USER=arsene ; COMMAND=/usr/bin/python3.9 /home/arsene/heist.py
+<86>Nov 14 12:53:52 LupinOne sudo: pam_unix(sudo:session): session opened for user arsene(uid=1000) by icex64(uid=1001)
+<30>Nov 14 12:53:03 LupinOne systemd[37980]: Started GnuPG cryptographic agent and passphrase cache.
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: using fd 6 for extra socket (/run/user/1001/gnupg/S.gpg-agent.extra)
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: using fd 3 for ssh socket (/run/user/1001/gnupg/S.gpg-agent.ssh)
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: gpg-agent (GnuPG) 2.2.27 starting in supervised mode.
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: listening on: std=4 extra=6 browser=5 ssh=3
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: using fd 5 for browser socket (/run/user/1001/gnupg/S.gpg-agent.browser)
+<30>Nov 14 12:53:03 LupinOne gpg-agent[44035]: using fd 4 for std socket (/run/user/1001/gnupg/S.gpg-agent)
+<34>Nov 14 12:53:03 LupinOne nologin: Attempted login by icex64 (UID: 1001) on UNKNOWN
+<78>Nov 14 12:53:02 LupinOne crontab[42039]: (icex64) LIST (icex64)
+<78>Nov 14 12:53:02 LupinOne crontab[42021]: (icex64) LIST (icex64)
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Reached target Main User Target.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Startup finished in 54ms.
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Started Session 10 of user icex64.
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Started User Manager for UID 1001.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Reached target Basic System.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Listening on GnuPG cryptographic agent and passphrase cache.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Reached target Sockets.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Reached target Timers.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Queued start job for default target Main User Target.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Listening on GnuPG network certificate management daemon.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Reached target Paths.
+<30>Nov 14 12:52:05 LupinOne systemd[37980]: Created slice User Application Slice.
+<38>Nov 14 12:52:05 LupinOne systemd-logind[412]: New session 10 of user icex64.
+<30>Nov 14 12:52:05 LupinOne systemd[37985]: gpgconf: error running '/usr/lib/gnupg/scdaemon': probably not installed
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Created slice User Slice of UID 1001.
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Starting User Runtime Directory /run/user/1001...
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Finished User Runtime Directory /run/user/1001.
+<86>Nov 14 12:52:05 LupinOne systemd: pam_unix(systemd-user:session): session opened for user icex64(uid=1001) by (uid=0)
+<86>Nov 14 12:52:05 LupinOne sshd[37973]: pam_unix(sshd:session): session opened for user icex64(uid=1001) by (uid=0)
+<30>Nov 14 12:52:05 LupinOne systemd[1]: Starting User Manager for UID 1001...
+<38>Nov 14 12:52:05 LupinOne sshd[37973]: Accepted publickey for icex64 from 192.168.56.103 port 49844 ssh2: RSA SHA256:MBDkb47x64c8nQXqLxInBusjc1MywIWQOewYVFW3DkU
